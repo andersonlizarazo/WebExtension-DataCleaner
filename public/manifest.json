@@ -3,5 +3,11 @@
   "description": "A web extension that keeps your browser clean.",
   "version": "0.1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "assets/extension-icon-16.png",
+    "32": "assets/extension-icon-32.png",
+    "48": "assets/extension-icon-48.png",
+    "128": "assets/extension-icon-128.png"
+  },
   "options_page": "pages/options.html"
 }
