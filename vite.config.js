@@ -17,7 +17,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        settings: resolve(import.meta.dirname, "pages", "settings.html"),
+        options: resolve(import.meta.dirname, "pages", "options.html"),
       },
     },
   },

@@ -1,0 +1,7 @@
+{
+  "name": "DataCleaner",
+  "description": "A web extension that keeps your browser clean.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "options_page": "pages/options.html"
+}

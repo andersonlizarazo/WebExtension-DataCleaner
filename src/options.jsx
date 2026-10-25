@@ -6,14 +6,14 @@ import {
   prerender as ssr,
 } from "preact-iso";
 
-import { Settings } from "./pages/Settings/index.jsx";
+import { Options } from "./pages/Options/index.jsx";
 
 export function App() {
   return (
     <LocationProvider>
       <main>
         <Router>
-          <Route default component={Settings} />
+          <Route default component={Options} />
         </Router>
       </main>
     </LocationProvider>
